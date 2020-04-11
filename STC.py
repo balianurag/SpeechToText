@@ -4,8 +4,6 @@ from google.oauth2 import service_account
 import speech_recognition as sr
 from fuzzywuzzy import fuzz
 Str1=str(input("Enter the statement:"))
-#credentials=service_account.Credentials.from_service_account_file('speech-273706-b59bc46a664b.json ',scopes=["https://www.googleapis.com/auth/cloud-platform"])
-
 r = sr.Recognizer()
 
 with sr.Microphone() as source:
@@ -13,7 +11,6 @@ with sr.Microphone() as source:
     audio = r.listen(source)
 
 try:
-    # for testing purposes, we're just using the default API key to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")` instead of `r.recognize_google(audio)`
     Str2=r.recognize_google(audio)
     print("You said: " + r.recognize_google(audio))
 
@@ -35,5 +32,4 @@ def ratio_confidence(a,b):
 confidence,voice=ratio_confidence(Str1,Str2)
 
 print("Confidence Interval :",confidence)
-print("Voice Recognition Accuracy :",voice)
     
