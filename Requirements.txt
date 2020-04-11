@@ -2,6 +2,7 @@ Here i am going on to mention dependencies requied for this project.
 
 1) Python==3.8.1
 2) Google Speech API Keys
-3) io
-4) Argparser
-5) fuzzywuzzy 
+3) pip install io
+4) pip install argparser
+5) pip install fuzzywuzzy 
+6) pip install speech_recognition
