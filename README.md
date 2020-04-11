@@ -5,4 +5,4 @@ between the default text . which we are suppose to speak and the Text which is g
 
 # Translation 
 
-For the variety of languages we will we do translation first from any language to english then process it through Speech To Text system and then convert the output and do Text to Text comparison in order to confidence interval.
+For the variety of languages we will do translation first from any language to english then process it through Speech To Text system and then convert the output and do Text to Text comparison in order to confidence interval.
