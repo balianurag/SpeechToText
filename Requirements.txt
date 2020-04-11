@@ -1,0 +1,7 @@
+Here i am going on to mention dependencies requied for this project.
+
+1) Python==3.8.1
+2) Google Speech API Keys
+3) io
+4) Argparser
+5) fuzzywuzzy 
